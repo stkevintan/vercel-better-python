@@ -4,12 +4,15 @@
     "name": "stkevintan",
     "email": "stkevintan@zju.edu.cn"
   },
+  "files": [
+    "dist",
+    "vc_init.py"
+  ],
   "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "tsc -p tsconfig.json --watch",
-    "build": "tsc -p tsconfig.json"
+    "build": "node build"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",

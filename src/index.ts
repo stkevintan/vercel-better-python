@@ -1,6 +1,6 @@
 import { join, dirname, basename } from 'path';
-import { execa } from 'execa';
-import fs, { exists, existsSync } from 'fs';
+import execa from 'execa';
+import fs, { existsSync } from 'fs';
 import { promisify } from 'util';
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
