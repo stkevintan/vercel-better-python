@@ -8,7 +8,7 @@
     "dist",
     "vc_init.py"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "typescript": "^4.7.4",
-    "@vercel/build-utils": "^4.2.0"
+    "@vercel/build-utils": "^4.2.0",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "execa": "5.1.1",
