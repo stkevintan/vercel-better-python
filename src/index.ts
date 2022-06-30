@@ -206,6 +206,11 @@ export const build = async ({
     environment: {},
   });
 
+  // backward compat
+  if (meta.isDev) {
+    lambda.zipBuffer = await lambda.createZip();
+  }
+
   return { output: lambda };
 };
 
