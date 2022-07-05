@@ -8,7 +8,7 @@
     "dist",
     "vc_init.py"
   ],
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
